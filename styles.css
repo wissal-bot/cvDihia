@@ -1,0 +1,123 @@
+.contenair-header,
+.competences,
+.exp-form,
+.item-informations {
+  display: flex;
+  width: 100%; /* Ajustez cette valeur selon vos besoins */
+}
+.contenair-header {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Ajustez cette valeur selon vos besoins */
+}
+.présentation {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.svg {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  width: 5%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.svg-objectif {
+  display: flex;
+  width: 10%;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+}
+.objectf {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-end;
+  width: 100%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.présentation,
+.exp-pro,
+.skills {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-start;
+  width: 50%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-start;
+  width: 33%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+
+.objectf,
+.formation {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-sart;
+  width: 50%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.langues {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-end;
+  width: 33%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+}
+.info-perso {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-start;
+  width: 30%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+  list-style-type: none;
+}
+
+.item-objectif {
+  display: flex;
+  flex-wrap: wrap; /* Essaie aussi: nowrap, wrap-reverse */
+  justify-content: flex-start;
+  width: 90%; /* Ajustez cette valeur selon vos besoins */
+  height: auto;
+  list-style-type: none;
+}
+.item-presentation h1 {
+  color: #e48e00;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.item-presentation h2 {
+  display: flex;
+  justify-content: center;
+  color: #ffc331;
+}
+.présentation,
+.objectf p {
+  font-weight: bold;
+}
+
+.exp-pro h1,
+.formation h1 {
+  display: flex;
+  justify-content: center;
+  width: 99%;
+  background-color: #ffc331;
+  color: white;
+}
+
+.item-experiences h4,
+.item-formations h4 {
+  color: #c26505;
+  font-weight: bold;
+}
+.item-experiences li,
+.item-langues li {
+  list-style-type: none;
+}
